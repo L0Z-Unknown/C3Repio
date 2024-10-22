@@ -4,6 +4,10 @@ using TMPro;
 public class Get : MonoBehaviour
 {
     [SerializeField]
+    TMP_InputField markup;
+    [SerializeField]
+    TMP_InputField Price;
+    [SerializeField]
     TMP_InputField field;
     [SerializeField]
     TMP_InputField i_flourAmt;
