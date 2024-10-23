@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using System.Xml.Schema;
 public class GetInputFieldValue : MonoBehaviour
 {
     [SerializeField]
@@ -8,6 +9,10 @@ public class GetInputFieldValue : MonoBehaviour
     TMP_InputField i_flourAmt;
     [SerializeField]
     TMP_InputField i_flourCost;
+    [SerializeField]
+    TMP_InputField i_sugarAmt;
+    [SerializeField]
+    TMP_InputField i_sugarCost;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -19,12 +24,25 @@ public class GetInputFieldValue : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            float flourCost = -1;
-            Debug.Log(i_flourAmt.text);
-            Debug.Log(float.TryParse(i_flourCost.text, out flourCost));
-            float flourAmt = -1;
-            Debug.Log(float.TryParse(i_flourAmt.text, out flourAmt));
-            Debug.Log(flourAmt * flourCost);
+            cal();
         }
+    }
+    public void cal()
+    {
+
+        float flourCost = -1;
+        Debug.Log(i_flourAmt.text);
+        Debug.Log(float.TryParse(i_flourCost.text, out flourCost));
+        float flourAmt = -1;
+        Debug.Log(float.TryParse(i_flourAmt.text, out flourAmt));
+
+        float sugarCost = -1;
+        Debug.Log(i_flourAmt.text);
+        Debug.Log(float.TryParse(i_sugarCost.text, out sugarCost));
+        float sugarAmt = -1;
+        Debug.Log(float.TryParse(i_sugarAmt.text, out sugarAmt));
+        Debug.Log(flourAmt * flourCost + sugarAmt * sugarCost);
+
+        
     }
 }
