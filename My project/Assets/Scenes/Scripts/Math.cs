@@ -5,10 +5,7 @@ using UnityEngine;
 
 public class Math : MonoBehaviour
 {
-    [SerializeField]
-    TMP_InputField markup;
-    [SerializeField]
-    TMP_InputField Price;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +15,7 @@ public class Math : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        GameObject[] amounts = GameObject.FindGameObjectsWithTag("Amt");
+        GameObject[] price = GameObject.FindGameObjectsWithTag("Price");
     }
 }
