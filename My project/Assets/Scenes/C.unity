@@ -4015,7 +4015,7 @@ MonoBehaviour:
   m_text: The Last Braincell
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989476bc679987f42a2ab18afb5fd488, type: 2}
-  m_sharedMaterial: {fileID: -684805032687044768, guid: 989476bc679987f42a2ab18afb5fd488, type: 2}
+  m_sharedMaterial: {fileID: -5342505936452789731, guid: 989476bc679987f42a2ab18afb5fd488, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6479,8 +6479,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Ingredients & Measurements
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 989476bc679987f42a2ab18afb5fd488, type: 2}
-  m_sharedMaterial: {fileID: -684805032687044768, guid: 989476bc679987f42a2ab18afb5fd488, type: 2}
+  m_fontAsset: {fileID: 0}
+  m_sharedMaterial: {fileID: 0}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -32348,10 +32348,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: " v 0.0.10A  \xA9 Tri-Tech Skills Center 1981-2024 ksd.org All Rights Reserved"
+  m_text: " v 1.0.00  \xA9 Tri-Tech Skills Center 1981-2024 ksd.org All Rights Reserved"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989476bc679987f42a2ab18afb5fd488, type: 2}
-  m_sharedMaterial: {fileID: -684805032687044768, guid: 989476bc679987f42a2ab18afb5fd488, type: 2}
+  m_sharedMaterial: {fileID: -5342505936452789731, guid: 989476bc679987f42a2ab18afb5fd488, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -34091,7 +34091,7 @@ MonoBehaviour:
   m_text: Cost Cooker
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 989476bc679987f42a2ab18afb5fd488, type: 2}
-  m_sharedMaterial: {fileID: -684805032687044768, guid: 989476bc679987f42a2ab18afb5fd488, type: 2}
+  m_sharedMaterial: {fileID: -5342505936452789731, guid: 989476bc679987f42a2ab18afb5fd488, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
