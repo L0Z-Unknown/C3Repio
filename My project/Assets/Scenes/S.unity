@@ -209,7 +209,6 @@ GameObject:
   - component: {fileID: 28034636}
   - component: {fileID: 28034635}
   - component: {fileID: 28034634}
-  - component: {fileID: 28034637}
   m_Layer: 5
   m_Name: InputField (TMP)
   m_TagString: Amt
@@ -373,23 +372,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 28034632}
   m_CullTransparentMesh: 1
---- !u!114 &28034637
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 28034632}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a24d2517f077de41bee2ac20ba823c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  markup: {fileID: 0}
-  Price: {fileID: 0}
-  field: {fileID: 28034634}
-  i_flourAmt: {fileID: 0}
-  i_flourCost: {fileID: 0}
 --- !u!1 &43529722
 GameObject:
   m_ObjectHideFlags: 0
@@ -735,7 +717,6 @@ GameObject:
   - component: {fileID: 122624452}
   - component: {fileID: 122624451}
   - component: {fileID: 122624450}
-  - component: {fileID: 122624453}
   m_Layer: 5
   m_Name: InputField (TMP) (4)
   m_TagString: Amt
@@ -899,23 +880,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 122624448}
   m_CullTransparentMesh: 1
---- !u!114 &122624453
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 122624448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a24d2517f077de41bee2ac20ba823c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  markup: {fileID: 0}
-  Price: {fileID: 0}
-  field: {fileID: 122624450}
-  i_flourAmt: {fileID: 0}
-  i_flourCost: {fileID: 0}
 --- !u!1 &125468861
 GameObject:
   m_ObjectHideFlags: 0
@@ -1103,7 +1067,6 @@ GameObject:
   - component: {fileID: 130239932}
   - component: {fileID: 130239931}
   - component: {fileID: 130239930}
-  - component: {fileID: 130239933}
   m_Layer: 5
   m_Name: InputField (TMP) (3)
   m_TagString: Amt
@@ -1267,23 +1230,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130239928}
   m_CullTransparentMesh: 1
---- !u!114 &130239933
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 130239928}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a24d2517f077de41bee2ac20ba823c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  markup: {fileID: 0}
-  Price: {fileID: 0}
-  field: {fileID: 130239930}
-  i_flourAmt: {fileID: 0}
-  i_flourCost: {fileID: 0}
 --- !u!1 &138474184
 GameObject:
   m_ObjectHideFlags: 0
@@ -3689,7 +3635,6 @@ GameObject:
   - component: {fileID: 420788419}
   - component: {fileID: 420788418}
   - component: {fileID: 420788417}
-  - component: {fileID: 420788420}
   m_Layer: 5
   m_Name: InputField (TMP) (2)
   m_TagString: Amt
@@ -3853,23 +3798,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 420788415}
   m_CullTransparentMesh: 1
---- !u!114 &420788420
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 420788415}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a24d2517f077de41bee2ac20ba823c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  markup: {fileID: 0}
-  Price: {fileID: 0}
-  field: {fileID: 420788417}
-  i_flourAmt: {fileID: 0}
-  i_flourCost: {fileID: 0}
 --- !u!1 &427269866
 GameObject:
   m_ObjectHideFlags: 0
@@ -7331,7 +7259,6 @@ GameObject:
   - component: {fileID: 869133109}
   - component: {fileID: 869133108}
   - component: {fileID: 869133107}
-  - component: {fileID: 869133110}
   m_Layer: 5
   m_Name: InputField (TMP) (6)
   m_TagString: Amt
@@ -7495,23 +7422,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 869133105}
   m_CullTransparentMesh: 1
---- !u!114 &869133110
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 869133105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a24d2517f077de41bee2ac20ba823c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  markup: {fileID: 0}
-  Price: {fileID: 0}
-  field: {fileID: 869133107}
-  i_flourAmt: {fileID: 0}
-  i_flourCost: {fileID: 0}
 --- !u!1 &871684189
 GameObject:
   m_ObjectHideFlags: 0
@@ -11575,7 +11485,6 @@ GameObject:
   - component: {fileID: 1259813072}
   - component: {fileID: 1259813071}
   - component: {fileID: 1259813070}
-  - component: {fileID: 1259813073}
   m_Layer: 5
   m_Name: InputField (TMP) (5)
   m_TagString: Amt
@@ -11739,23 +11648,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1259813068}
   m_CullTransparentMesh: 1
---- !u!114 &1259813073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1259813068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a24d2517f077de41bee2ac20ba823c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  markup: {fileID: 0}
-  Price: {fileID: 0}
-  field: {fileID: 1259813070}
-  i_flourAmt: {fileID: 0}
-  i_flourCost: {fileID: 0}
 --- !u!1 &1260527324
 GameObject:
   m_ObjectHideFlags: 0
@@ -16161,7 +16053,6 @@ GameObject:
   - component: {fileID: 1678111795}
   - component: {fileID: 1678111794}
   - component: {fileID: 1678111793}
-  - component: {fileID: 1678111796}
   m_Layer: 5
   m_Name: InputField (TMP) (1)
   m_TagString: Amt
@@ -16325,23 +16216,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1678111791}
   m_CullTransparentMesh: 1
---- !u!114 &1678111796
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1678111791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a24d2517f077de41bee2ac20ba823c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  markup: {fileID: 0}
-  Price: {fileID: 0}
-  field: {fileID: 1678111793}
-  i_flourAmt: {fileID: 0}
-  i_flourCost: {fileID: 0}
 --- !u!1 &1694213579
 GameObject:
   m_ObjectHideFlags: 0
@@ -16354,6 +16228,7 @@ GameObject:
   - component: {fileID: 1694213582}
   - component: {fileID: 1694213581}
   - component: {fileID: 1694213580}
+  - component: {fileID: 1694213584}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -16475,6 +16350,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1694213584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694213579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38d048d697d8f4243852cc918bd90884, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1720123142
 GameObject:
   m_ObjectHideFlags: 0
@@ -19419,7 +19306,6 @@ GameObject:
   - component: {fileID: 1984293936}
   - component: {fileID: 1984293935}
   - component: {fileID: 1984293934}
-  - component: {fileID: 1984293933}
   m_Layer: 5
   m_Name: InputField (TMP) (13)
   m_TagString: Untagged
@@ -19447,23 +19333,6 @@ RectTransform:
   m_AnchoredPosition: {x: -188.78278, y: 264}
   m_SizeDelta: {x: 65, y: 35}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1984293933
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1984293931}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a24d2517f077de41bee2ac20ba823c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  markup: {fileID: 0}
-  Price: {fileID: 0}
-  field: {fileID: 1984293934}
-  i_flourAmt: {fileID: 0}
-  i_flourCost: {fileID: 0}
 --- !u!114 &1984293934
 MonoBehaviour:
   m_ObjectHideFlags: 0
