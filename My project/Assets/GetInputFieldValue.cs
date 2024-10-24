@@ -24,10 +24,10 @@ public class GetInputFieldValue : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            cal();
+            Cal();
         }
     }
-    public void cal()
+    public void Cal()
     {
 
         float flourCost = -1;
